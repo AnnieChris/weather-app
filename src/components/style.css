@@ -1,0 +1,67 @@
+body{
+    background-color: #f1f1f1 !important;
+}
+img{
+    width: -webkit-fill-available;
+}
+.container {
+    background: linear-gradient(214deg, #20226f, #bf0a9a, #460050);
+  background-size: 120% 120%;
+  animation: gradient-animation 6s ease infinite;
+    display: flex;
+    flex-direction: column;
+    width: 35% !important;
+    height: auto;
+    margin: 5em auto;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 50px;
+    color: white;
+    box-shadow: 2px 3px 5px #130115;
+}
+
+.weather-image {
+    padding: 15px;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.weather-image .svg-inline--fa {
+    width: auto;
+    height: 4em;
+}
+
+.sun-icon {
+    position: absolute;
+    top: 52%;
+    z-index: 1;
+}
+.cloud-icon{
+    position: absolute;
+    left: 48%;
+    z-index: 2;
+}
+
+.weather-temp{
+    font-size: 3em;
+}
+.weather-location{
+    font-size: 1.5em;
+}
+.weather-update{
+    display: flex;
+    gap: 6em;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
+}
+.weather-humidity, .weather-wind{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.weather-humidity .svg-inline--fa, .weather-wind .svg-inline--fa{
+    height: 1.5em;
+}
